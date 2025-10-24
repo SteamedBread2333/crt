@@ -41,7 +41,8 @@ func getTerminalSize() (int, int) {
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: crt <image_file> [mode] [--center]")
-		fmt.Println("\nSupported formats: JPEG, PNG, GIF, BMP, TIFF, WEBP")
+		fmt.Println("\nSupported formats: JPEG, PNG, BMP, TIFF")
+		fmt.Println("Note: GIF and WebP show first frame only (no animation)")
 		fmt.Println("\nOptional mode:")
 		fmt.Println("  block - Use block characters (default, works everywhere)")
 		fmt.Println("  sixel - Use Sixel graphics (highest quality, requires compatible terminal)")

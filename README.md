@@ -107,10 +107,12 @@ Uses Sixel graphics protocol for high-fidelity image display. Requires a Sixel-c
 
 - **JPEG** (.jpg, .jpeg)
 - **PNG** (.png) - with transparency support
-- **GIF** (.gif)
 - **BMP** (.bmp)
 - **TIFF** (.tiff, .tif)
-- **WebP** (.webp)
+- **GIF** (.gif) - first frame only, no animation
+- **WebP** (.webp) - static images only, no animation
+
+**Note:** This is a static image viewer. Animated GIF and WebP files will only display their first frame.
 
 ## Examples
 
