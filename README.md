@@ -68,9 +68,11 @@ Uses Unicode half-block characters (▀) to display images with 2 colors per cha
 
 **Example:**
 ```bash
-./crt photo.jpg
-./crt photo.jpg block --center
+./crt photo.jpg sixel --center
+./crt photo.jpg --center
 ```
+<img width="638" height="215" alt="image-sixel" src="https://github.com/user-attachments/assets/4893322d-fb3f-41e4-a857-de092bfadd49" />
+<img width="710" height="371" alt="image-block" src="https://github.com/user-attachments/assets/5b6c23cb-f8c5-4dd9-8ad0-10c195a9cc52" />
 
 #### Sixel Mode
 
